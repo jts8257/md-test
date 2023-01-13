@@ -1,7 +1,14 @@
 # 쿠폰 푸시 서버 시퀀스
 version : 객체에 매핑하기 전 단계
 
------
+문서는 다음과 같은 형식으로 되어 있습니다.
+1. 시퀀스 다이어그램
+2. 데이터
+3. 고민 해야할 사항
+
+데이터는 각 단계에서 필요한 데이터를 명시하였으며, json 포맷에 key: type 형태로 작성하였습니다. Nullable 은 type? 으로 표현하였습니다.
+
+---
 ## 쿠폰 발급(Coupon Publish)
 ```mermaid
 sequenceDiagram
@@ -77,6 +84,7 @@ sequenceDiagram
 * 최대한 효율적으로 중복되지 않은 coupon coed 를 생성하기 위한 알고리즘을 만들어야 한다.
 * 만약 info, code duplicate 체크를 했는데, 그 쿠폰이 persist 되기 전에 또 다시 동일한 정보로 쿠폰 발행 요청이 들어오고, 기존의 발행 요청보다 먼저 persist 된다면 문제가 발생한다. 이를 막기위한 효과적인 방법은 없을까?
 
+---
 
 ## 쿠폰 사용(Coupon Use)
 
