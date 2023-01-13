@@ -15,8 +15,8 @@ version : 객체에 매핑하기 전 단계
 
 데이터는 각 단계에서 필요한 데이터를 명시하였으며, json 포맷에 key: type 형태로 작성하였습니다. Nullable 은 type? 으로 표현하였습니다.
 
-[시나리오 - 쿠폰발급](#쿠폰-발급(coupon-publish)) <br/>
-[시나리오 - 쿠폰사용](#쿠폰-사용(coupon-use))
+[시나리오 - 쿠폰발급](#쿠폰-발급coupon-publish) <br/>
+[시나리오 - 쿠폰사용](#쿠폰-사용coupon-use)
 
 
 ---
