@@ -45,30 +45,30 @@ sequenceDiagram
 ### createCoupon
 ```json
 {
-    title: string, // 쿠폰의 제목
-    desc: string, // 쿠폰의 내용
-    startTime: datetime, // 쿠폰 적용 시작 시간
-    endTime: datetime, // 쿠폰 적용 마감 시간
-    couponeType: string, // 쿠폰의 타입
-    targetUserId: long?, // 개인 지정시 개인의 id
-    targetGroupId: long?, // 그룹 지정시 그룹의 id
-    discountType: string, // 정액 할인 or 정률 할인
-    discountAmount: int // 할인량, 
-    publisher: long, // 쿠폰 발행자의 id
-    reason: string, // 쿠폰 발행 사유
+    "title": "string", // 쿠폰의 제목
+    "desc": "string", // 쿠폰의 내용
+    "startTime": "datetime", // 쿠폰 적용 시작 시간
+    "endTime": "datetime", // 쿠폰 적용 마감 시간
+    "couponeType": "string", // 쿠폰의 타입
+    "targetUserId": "long?", // 개인 지정시 개인의 id
+    "targetGroupId": "long?", // 그룹 지정시 그룹의 id
+    "discountType": "string", // 정액 할인 or 정률 할인
+    "discountAmount": "int", // 할인량, 
+    "publisher": "long", // 쿠폰 발행자의 id
+    "reason": "string", // 쿠폰 발행 사유
 }
 ```
 
 ### isDuplicatedInfo
 ```json
 {
-    title: string, // 쿠폰의 제목
-    description: string, // 쿠폰의 내용
-    startTime: datetime, // 쿠폰 적용 시작 시간
-    endTime: datetime, // 쿠폰 적용 마감 시간
-    couponeType: string, // 쿠폰의 타입
-    targetUserId: long?, // 개인 지정시 개인의 id
-    targetGroupId: long?, // 그룹 지정시 그룹의 id
+    "title": "string", // 쿠폰의 제목
+    "description": "string", // 쿠폰의 내용
+    "startTime": "datetime", // 쿠폰 적용 시작 시간
+    "endTime": "datetime", // 쿠폰 적용 마감 시간
+    "couponeType": "string", // 쿠폰의 타입
+    "targetUserId": "long?", // 개인 지정시 개인의 id
+    "targetGroupId": "long?", // 그룹 지정시 그룹의 id
 }
 ```
 
